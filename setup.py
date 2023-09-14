@@ -20,7 +20,7 @@ extras_require["dev"] = (
 
 setuptools.setup(
     name="lstm",
-    version="0.1.0",
+    version="1.0.0.dev0",
     author="Nicolas REMOND",
     author_email="remondnicola@gmail.com",
     description="Pytorch implementation of LSTM variants",
