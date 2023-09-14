@@ -1,14 +1,21 @@
-# Pytere
+# LSTM
 
 ## Introduction
 
-Welcome to the documentation of the `pytere` package.
+Welcome to the documentation of the `lstm` package.
 
-`pytere` (**Py**thon **te**mplate **re**pository) is simply a template repository for python packages.
+The **`lstm`** package allows you to easily use various LSTM alternatives, implemented in Pytorch.
 
-This full-fledged template provides you with everything you need (_documentation, unit-tests, code linting & formatting, pre-commit hooks, etc..._) so you can just focus on writing the code.
+Currently implemented : 
 
-If you want to use this template, follow the instructions at the [Usage](usage.md) page.
+* **Nothing**
+
+Roadmap :
+
+* **LSTM** (to ensure we get the same results as Pytorch implementation)
+* **GRU** (to ensure we get the same results as Pytorch implementation)
+* **CIFG**
+* **LiGRU**
 
 ## Installation
 
@@ -17,13 +24,13 @@ If you want to use this template, follow the instructions at the [Usage](usage.m
 You can install the latest version of the package directly from PyPi with :
 
 ```bash
-pip install pytere
+pip install lstm
 ```
 
 !!! hint
     If you want to install directly from Github, run :
     ```bash
-    pip install git+https://github.com/astariul/pytere.git
+    pip install git+https://github.com/astariul/lstm.git
     ```
 
 ### Specific version
@@ -31,13 +38,13 @@ pip install pytere
 You can install a specific version of the package (`0.1.0` in ths example) from PyPi with :
 
 ```bash
-pip install pytere==0.1.0
+pip install lstm==0.1.0
 ```
 
 !!! hint
     If you want to install directly from Github, run :
     ```bash
-    pip install git+https://github.com/astariul/pytere.git@v0.1.0
+    pip install git+https://github.com/astariul/lstm.git@v0.1.0
     ```
 
 ### Local
@@ -45,8 +52,8 @@ pip install pytere==0.1.0
 You can also clone the repository locally and install it manually :
 
 ```bash
-git clone https://github.com/astariul/pytere.git
-cd pytere
+git clone https://github.com/astariul/lstm.git
+cd lstm
 pip install -e .
 ```
 
@@ -63,7 +70,7 @@ Will install necessary dependencies for building the docs.
 !!! hint
     If you installed the package directly from github, run :
     ```bash
-    pip install "pytere[docs] @ git+https://github.com/astariul/pytere.git"
+    pip install "lstm[docs] @ git+https://github.com/astariul/lstm.git"
     ```
 
 ---
